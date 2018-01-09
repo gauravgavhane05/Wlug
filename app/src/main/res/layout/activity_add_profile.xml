@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#Fff"
+    android:orientation="vertical"
+    tools:context="com.example.shree.wlug.AddProfile">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="330dp"
+            android:layout_height="380dp"
+            app:cardBackgroundColor="#eeeeee"
+            app:cardCornerRadius="5dp"
+            app:cardElevation="15dp"
+            app:contentPadding="3dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="70dp"
+            >
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:id="@+id/errorFirstName"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                >
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="40dp"
+                    android:hint="First Name"
+                    android:inputType="text"
+                    android:textColorHint="#ffffff"
+                    android:id="@+id/firstName"
+                    />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:id="@+id/errorLastName"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="100dp"
+                >
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="40dp"
+                    android:hint="Last Name"
+                    android:inputType="text"
+                    android:textColorHint="#ffffff"
+                    android:id="@+id/lastname"
+                    />
+            </android.support.design.widget.TextInputLayout>
+
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:id="@+id/errorAddress"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="170dp"
+                >
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="40dp"
+                    android:hint="Address"
+                    android:inputType="textLongMessage"
+                    android:textColorHint="#ffffff"
+                    android:id="@+id/address"
+                    />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:id="@+id/errorMobileNo"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="240dp"
+                >
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="40dp"
+                    android:hint="Mobile No"
+                    android:inputType="number"
+                    android:textColorHint="#ffffff"
+                    android:id="@+id/mobileno"
+                    />
+            </android.support.design.widget.TextInputLayout>
+
+            <Button
+                android:id="@+id/addProfile"
+                android:layout_width="200dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="310dp"
+                android:background="#40c4ff"
+                android:text="Add Profile"
+                android:textSize="15dp"
+                android:textColor="#000"
+                android:onClick="addProfile"
+                android:layout_gravity="center_horizontal"/>
+
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+
+
+
+
+
+
+
+</LinearLayout>

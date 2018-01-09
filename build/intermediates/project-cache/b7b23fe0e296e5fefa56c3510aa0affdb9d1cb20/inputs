@@ -1,0 +1,6 @@
+COMMAND=PREDEX_LIBRARY_TO_DEX_ARCHIVE
+FILE_PATH=/home/rohit/WLUG/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar
+FILE_HASH=4eb2e06fa7cc35464bc355683015179bb2504d2f
+DX_VERSION=1.13
+JUMBO_MODE=true
+OPTIMIZE=true

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "667763886213",
+    "firebase_url": "https://wlug-d12d5.firebaseio.com",
+    "project_id": "wlug-d12d5",
+    "storage_bucket": "wlug-d12d5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:667763886213:android:b6a9ae1208e75fdb",
+        "android_client_info": {
+          "package_name": "com.example.shree.wlug"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "667763886213-viffg3em36c481kocrtm24jgq0ohskj7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.shree.wlug",
+            "certificate_hash": "aeb542940af62e4e489b1596d20347b39b5e16d4"
+          }
+        },
+        {
+          "client_id": "667763886213-uqmk1h16idov11ace8gs1iccdd3k4koa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDWgazu22Db56YyZptu8cmoxMfxluGcmWo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "667763886213-uqmk1h16idov11ace8gs1iccdd3k4koa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

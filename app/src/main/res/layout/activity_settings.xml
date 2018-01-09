@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical"
+    tools:context="com.example.shree.wlug.Settings">
+
+
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="60dp"
+            android:layout_gravity="center"
+            android:drawableStart="@drawable/account"
+            android:text="Add Profile"
+            android:textSize="20dp"
+            android:background="#e0e0e0"
+            android:id="@+id/addyourProfile"
+            android:onClick="addYourProfile"/>
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="60dp"
+        android:layout_gravity="center"
+        android:text="Change Profile."
+        android:drawableStart="@drawable/picture"
+        android:textSize="20dp"
+        android:background="#e0e0e0"
+        android:id="@+id/changeProfile"
+        android:onClick="changeProfile"/>
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="60dp"
+        android:layout_gravity="center"
+        android:text="Change Password"
+        android:drawableStart="@drawable/ic_security_2x"
+        android:textSize="20dp"
+        android:background="#e0e0e0"
+        android:id="@+id/changePassword"
+        android:onClick="changePassword"/>
+
+</LinearLayout>

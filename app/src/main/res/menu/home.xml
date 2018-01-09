@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="withText" />
+
+    <item
+        android:id="@+id/signout"
+        android:title="Sign Out"
+        app:showAsAction="withText"/>
+
+    <item
+        android:id="@+id/myprofile"
+        android:title="My Profile"
+        app:showAsAction="withText"/>
+
+    <item
+        android:id="@+id/contactus"
+        android:title="Contact Us"
+        />
+
+    <item
+        android:id="@+id/help"
+        android:title="Help"/>
+
+    <item
+        android:id="@+id/exit"
+        android:title="Exit"/>
+
+</menu>
